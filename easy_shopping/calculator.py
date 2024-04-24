@@ -10,7 +10,7 @@ class calculator:
         return a*b
     
     def division(self, a, b):
-        if a == 0 or b == 0: 
+        if b == 0: 
             return("Cant divide by Zero")
         else: 
             return(a/b)    
